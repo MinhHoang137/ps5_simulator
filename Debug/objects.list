@@ -1,4 +1,3 @@
-"./Core/Src/adc_control.o"
 "./Core/Src/main.o"
 "./Core/Src/mapPinKey.o"
 "./Core/Src/stm32f4xx_hal_msp.o"

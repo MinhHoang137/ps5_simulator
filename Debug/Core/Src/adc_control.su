@@ -1,2 +1,0 @@
-../Core/Src/adc_control.c:19:6:HAL_ADC_ConvCpltCallback	16	static
-../Core/Src/adc_control.c:30:5:ConvertADCValues	40	static
