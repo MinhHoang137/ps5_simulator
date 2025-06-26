@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "usb_device.h": "c",
+        "mappinkey.h": "c",
+        "main.h": "c",
+        "compare": "cpp",
+        "adc_control.h": "c",
+        "stdlib.h": "c",
+        "usbd_ctlreq.h": "c",
+        "usbd_hid.h": "c"
+    }
+}

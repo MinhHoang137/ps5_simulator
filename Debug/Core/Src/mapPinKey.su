@@ -1,0 +1,6 @@
+../Core/Src/mapPinKey.c:43:6:AddKeyToReport	24	static
+../Core/Src/mapPinKey.c:51:6:AddMouseButtonToReport	16	static
+../Core/Src/mapPinKey.c:54:6:AddModifierToReport	16	static
+../Core/Src/mapPinKey.c:58:9:IsModifiableKey	24	static
+../Core/Src/mapPinKey.c:70:6:CreateKeyboardReport	48	static
+../Core/Src/mapPinKey.c:97:6:CreateMouseReport	32	static
