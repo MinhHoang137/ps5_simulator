@@ -31,7 +31,7 @@ int ConvertADCValues(uint16_t value){
     int rawValue = (int)value; // Chuyển đổi giá trị ADC sang kiểu int
     rawValue -= 2048; // Giả sử giá trị ADC nằm trong khoảng 0-4095, trừ đi 2048 để đưa về khoảng -2048 đến 2047
     int deadzone = 200; // Giả sử bạn muốn bỏ qua các giá trị nhỏ hơn 10
-    int upper_limit = 30;
+    int upper_limit = 50;
     double scale = upper_limit * 1.0 / 2048.0; 
     if (abs(rawValue) < deadzone) {
         return 0; // Trả về 0 nếu giá trị nhỏ hơn deadzone

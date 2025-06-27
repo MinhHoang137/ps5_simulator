@@ -113,7 +113,7 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buffer, ADC_BUFFER_SIZE); // Bắt đầu chuyển đổi ADC với DMA
-  int8_t limit = 10;
+  int8_t limit = 15;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -148,7 +148,7 @@ int main(void)
      else {
       HAL_GPIO_WritePin(GPIOG, GPIO_PIN_14, GPIO_PIN_RESET);
      }       // Tắt đèn LED nếu gửi báo cáo thành công
-    HAL_Delay(3);
+    HAL_Delay(5);
 
     mouse_report.x = mouse_x; // Cập nhật giá trị dịch chuyển chuột theo trục X
     mouse_report.y = mouse_y; // Cập nhật giá trị dịch chuyển chuột theo trục Y
@@ -170,7 +170,7 @@ int main(void)
 //
 //     // Gửi qua UART1
 //     HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
-    HAL_Delay(3);
+    HAL_Delay(5);
    
   }
   /* USER CODE END 3 */
